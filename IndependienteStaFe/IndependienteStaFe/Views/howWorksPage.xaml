@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.howWorksPage">
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource ScrollViewStyle}">
+            <StackLayout Style="{StaticResource StackLayoutStyle}" VerticalOptions="CenterAndExpand">
+                <Grid RowSpacing="0" Padding="2,2,2,2" BackgroundColor="Black" Margin="0,0,0,-5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65" />
+                    </Grid.RowDefinitions>
+                    <Button Text="HOME" TextColor="White" Grid.Row="0" Grid.Column="0" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="Transparent" Clicked="Home_Clicked" />
+                    <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" HeightRequest="40"  />
+                    <Button Clicked="Button_Clicked" Text="&#xf007;" FontSize="Large" FontFamily="{StaticResource FontAwesomeSolid}" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="40" TextColor="White"/>
+                    
+                </Grid>
+                <Grid Style="{StaticResource GridStyle}" BackgroundColor="Black" RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Text="¿COMO FUNCIONA?" FontSize="Large" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                </Grid >
+                <Grid Style="{StaticResource GridStyle}" BackgroundColor="DarkGray" RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Cada boleta de entrada al estadio y cada factura de compra tienen un código único que debes registrar en la plataforma" FontSize="Small" FontAttributes="Bold" TextColor="White"/>
+                </Grid>
+                <Grid Style="{StaticResource GridStyle}" BackgroundColor="White" RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="1" Grid.Column="0" Grid.Row="0" FontSize="Header" TextColor="Red" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="2" Grid.Column="0" Grid.Row="1" FontSize="Header" TextColor="Red" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="3" Grid.Column="0" Grid.Row="2" FontSize="Header" TextColor="Red" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="4" Grid.Column="0" Grid.Row="3" FontSize="Header" TextColor="Red" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="5" Grid.Column="0" Grid.Row="4" FontSize="Header" TextColor="Red" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="6" Grid.Column="0" Grid.Row="5" FontSize="Header" TextColor="Red" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Por cada asistencia al estadio o compra ganarás estrellas que te servirán para acceder a premios y beneficios exclusivos del equipo." Grid.Column="1" Grid.Row="0" FontSize="Small" TextColor="Black" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Para participar debes registrarte en www.estrellasdesantafe.com" Grid.Column="1" Grid.Row="1" FontSize="Small" TextColor="Black" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Revisa tus estrellas en nuestro sitio web, estas te servirán para redimir los productos y beneficios que desees." Grid.Column="1" Grid.Row="2" FontSize="Small" TextColor="Black" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Cuando redimas algún premio o beneficio recibirás un correo . Este correo tiene un código único que debes presentar para recibir tu beneficio." Grid.Column="1" Grid.Row="3" FontSize="Small" TextColor="Black" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Presenta el código en nuestra tienda para recibir tu beneficio." Grid.Column="1" Grid.Row="4" FontSize="Small" TextColor="Black" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Continúa comprando y acompañándonos en el estadio para seguir disfrutando de los beneficios que tenemos para ti." Grid.Column="1" Grid.Row="5" FontSize="Small" TextColor="Black" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                </Grid>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

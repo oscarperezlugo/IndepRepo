@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.GraciasxComprarPage">
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource ScrollViewStyle}">
+            <StackLayout Style="{StaticResource StackLayoutStyle}" VerticalOptions="CenterAndExpand">
+                <Grid Style="{StaticResource GridStyle}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="gracias" Text="¡GRACIAS POR LA COMPRA!" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="CenterAndExpand" Style="{StaticResource LabelDestacado}"  HeightRequest="200" WidthRequest="200" />
+                    <Image x:Name="image" Grid.Row="1" Grid.ColumnSpan="2" WidthRequest="150" VerticalOptions="StartAndExpand"  HeightRequest="200"   Aspect="Fill" Margin="5,5,5,5" />
+                    <Label  x:Name="name" Text="{Binding Name}" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="Center" 
+                     HorizontalOptions="CenterAndExpand"  Margin="5,5,5,5" TextColor="#B00000" />
+                    <Button  Grid.Row="3" Text="Continuar" TextColor="White" Grid.ColumnSpan="2" BackgroundColor="DarkRed"  Style="{StaticResource ButtonStyle}" Clicked="EvetClicked"></Button>
+                </Grid> 
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

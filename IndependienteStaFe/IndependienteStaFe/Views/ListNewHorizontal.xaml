@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.ListNewHorizontal">
+  <ContentView.Content>
+        <AbsoluteLayout x:Name="MessagesLayoutFrame" Padding="0"  HorizontalOptions="FillAndExpand">
+            <ContentView x:Name="MessagesLayoutFrameInner"  Padding="0"  HorizontalOptions="FillAndExpand">
+                <ListView x:Name="MessagesListView"            
+                                  RowHeight="200"
+                                  VerticalOptions="CenterAndExpand"
+                                  HeightRequest="200"
+                                  WidthRequest="500"
+                                  SeparatorVisibility="Default"
+                                  Rotation="270"
+                                  SeparatorColor="#63191B"
+                                  HorizontalOptions="Center">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ContentView Rotation="90" Padding="5">
+                                    <Image Source="{Binding Image}" Aspect="AspectFill" />
+                                </ContentView>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ContentView>
+        </AbsoluteLayout>
+
+    </ContentView.Content>
+</ContentView>

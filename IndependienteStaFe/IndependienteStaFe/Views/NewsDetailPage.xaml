@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.NewsDetailPage">
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource ScrollViewStyle}">
+            <StackLayout Style="{StaticResource StackLayoutStyle}" VerticalOptions="CenterAndExpand">
+                <Grid Style="{StaticResource GridStyle}" RowSpacing="0" BackgroundColor="LightGray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="180"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="image" Grid.Row="0"  WidthRequest="300" HeightRequest="150" Aspect="AspectFill"  HorizontalOptions="Center"/>
+                </Grid>
+                <Grid Style="{StaticResource GridStyle}" RowSpacing="0" BackgroundColor="Gray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="name"  Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="Large" FontAttributes="Bold" />
+                </Grid>
+                <Grid Style="{StaticResource GridStyle}" RowSpacing="0" BackgroundColor="DarkRed">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="date" Grid.Row="0" FontSize="Small" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" />
+                </Grid>
+                <Grid Style="{StaticResource GridStyle}" RowSpacing="0" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <WebView x:Name="content" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" HeightRequest="4500" Margin="5,5,5,5"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

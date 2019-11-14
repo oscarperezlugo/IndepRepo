@@ -1,0 +1,240 @@
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.deps.json
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.dll
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.pdb
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.xml
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csprojAssemblyReference.cache
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\GraciasxComprarPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\howWorksPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListciudadesPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListNewHorizontal.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListnewsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListPerfilesPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListproductsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListvideosPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MembemshipPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\NewsDetailPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\PartidosPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\playersTalkPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductoDetailPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RecuperarClavePage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UpdateMembershipPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserInfoPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserPointsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CoreCompileInputs.cache
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfoInputs.cache
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfo.cs
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CopyComplete
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\IndependieteStaFe\IndependieteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.deps.json
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.dll
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.pdb
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.xml
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\GraciasxComprarPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\HomeTabbedPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\howWorksPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListciudadesPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListNewHorizontal.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListnewsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListPerfilesPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListproductsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListvideosPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MembemshipPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\NewsDetailPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\PartidosPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\playersTalkPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductoDetailPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RecuperarClavePage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UpdateMembershipPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserInfoPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserPointsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfoInputs.cache
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfo.cs
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CopyComplete
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csprojAssemblyReference.cache
+C:\Users\Oscar\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\VideoPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csprojAssemblyReference.cache
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.deps.json
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.dll
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.pdb
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.xml
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\GraciasxComprarPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\HomeTabbedPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\howWorksPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListciudadesPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListNewHorizontal.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListnewsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListPerfilesPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListproductsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListvideosPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MembemshipPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\NewsDetailPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\PartidosPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\playersTalkPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductoDetailPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RecuperarClavePage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UpdateMembershipPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserInfoPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserPointsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\VideoPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CoreCompileInputs.cache
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfoInputs.cache
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfo.cs
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Ybrahim Miquilena\Desktop\independienteStaFe\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CopyComplete
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\GraciasxComprarPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\HomeTabbedPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\howWorksPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListciudadesPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListNewHorizontal.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListnewsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListPerfilesPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListproductsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListvideosPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MembemshipPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\NewsDetailPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\PartidosPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\playersTalkPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductoDetailPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RecuperarClavePage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UpdateMembershipPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserInfoPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserPointsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\VideoPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfoInputs.cache
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfo.cs
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Oscar\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csprojAssemblyReference.cache
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.deps.json
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.dll
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.pdb
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.xml
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csprojAssemblyReference.cache
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\GraciasxComprarPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\HomeTabbedPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\howWorksPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListciudadesPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListNewHorizontal.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListnewsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListPerfilesPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListproductsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListvideosPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MembemshipPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\NewsDetailPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\PartidosPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\playersTalkPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductoDetailPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RecuperarClavePage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UpdateMembershipPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserInfoPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserPointsPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\VideoPage.xaml.g.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CoreCompileInputs.cache
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfoInputs.cache
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfo.cs
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CopyComplete
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Ybrahim Miquilena\Desktop\Indep\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.deps.json
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\IndependienteStaFe.pdb
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.dll
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.pdb
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\bin\Release\netstandard2.0\Mono.Android.xml
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csprojAssemblyReference.cache
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\GraciasxComprarPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\HomeTabbedPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\howWorksPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListciudadesPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListNewHorizontal.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListnewsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListPerfilesPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListproductsPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ListvideosPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\MembemshipPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\NewsDetailPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\PartidosPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\playersTalkPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductoDetailPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\ProductPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RecuperarClavePage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UpdateMembershipPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\UserPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\Views\VideoPage.xaml.g.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfoInputs.cache
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.AssemblyInfo.cs
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.csproj.CopyComplete
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\ref\IndependienteStaFe.dll
+C:\Users\Oscar\Desktop\Indep Final\IndependienteStaFe\IndependienteStaFe\obj\Release\netstandard2.0\IndependienteStaFe.pdb

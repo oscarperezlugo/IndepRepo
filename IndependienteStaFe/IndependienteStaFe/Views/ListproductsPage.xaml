@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             x:Class="IndependienteStaFe.Views.ListproductsPage">
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource ScrollViewStyle}">
+            <StackLayout  VerticalOptions="CenterAndExpand">
+                <Grid RowSpacing="0" Padding="2,2,2,2" BackgroundColor="Black">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65" />
+                    </Grid.RowDefinitions>
+                    <Button Text="HOME" TextColor="White" Grid.Row="0" Grid.Column="0" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="Transparent" Clicked="Home_Clicked" />
+                    <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" HeightRequest="40"  />
+                    <Button Clicked="Button_Clicked" Text="&#xf007;" FontSize="Large" FontFamily="{StaticResource FontAwesomeSolid}" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="40" TextColor="White"/>
+                </Grid>
+                <ListView x:Name="Lista" ItemSelected="EvetClicked" SeparatorColor="#63191B" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+
+                                <Grid BackgroundColor="White">
+                                    <Grid.RowDefinitions>
+
+                                        <RowDefinition Height="100"/>
+                                        <RowDefinition Height="50"/>
+                                        <RowDefinition Height="50"/>
+                                        <RowDefinition Height="70"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="6*"/>
+                                        <ColumnDefinition Width="4*"/>
+
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding Image}" Grid.RowSpan="3" Grid.Row="0" Grid.Column="0" Aspect="AspectFill" Margin="5,5,5,5" HeightRequest="100"/>
+                                    <Label Text="{Binding Name}"  Grid.Row="0" Grid.Column="1"  TextColor="DarkRed" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Value}" Grid.Row="1" Grid.Column="1"   TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                    <Label Text="{Binding TypePay}" Grid.Row="2" Grid.Column="1"  TextColor="Gray" FontSize="Micro" VerticalOptions="Center" HorizontalOptions="Center" />
+                                    <Button  Grid.Row="3" FontSize="Medium" Text="Comprar" Grid.Column="0" Grid.ColumnSpan="2"   Style="{StaticResource ButtonCompraStyle}" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="DarkRed" Margin="0,0,0,10"/>
+
+                                </Grid>
+                            </ViewCell>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+              
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

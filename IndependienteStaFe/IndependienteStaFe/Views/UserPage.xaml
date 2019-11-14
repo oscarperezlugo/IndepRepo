@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.UserPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="DATOS DE USUARIO" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" TextColor="DarkRed" FontAttributes="Italic"/>
+            <Label x:Name="Nombre" Grid.Row="1" Grid.Column="1" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" TextColor="DarkRed" FontAttributes="Bold"/>
+            <Label x:Name="Apellido" Grid.Row="2" Grid.Column="1" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" TextColor="DarkRed" FontAttributes="Bold"/>
+            <Label x:Name="Correo" Grid.Row="3" Grid.Column="1" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" TextColor="DarkRed" FontAttributes="Bold"/>
+            <Label x:Name="Telefono" Grid.Row="4" Grid.Column="1" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" TextColor="DarkRed" FontAttributes="Bold"/>
+            <Label Text="Nombre" Grid.Row="1" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            <Label Text="Apellido" Grid.Row="2" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            <Label Text="Correo" Grid.Row="3" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            <Label Text="Telefono" Grid.Row="4" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            
+            </Grid>
+            <Grid BackgroundColor="Black">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="90"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="TUS PUNTOS ACUMULADOS SON" Grid.Row="0" Grid.Column="0" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontAttributes="Italic"/>
+                <Label x:Name="Puntos" Grid.Row="1" Grid.Column="0" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+            </Grid>
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button HorizontalOptions="Fill" VerticalOptions="Center" Text="REGRESAR" BackgroundColor="DarkRed" TextColor="White" CornerRadius="30" Clicked="RegClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

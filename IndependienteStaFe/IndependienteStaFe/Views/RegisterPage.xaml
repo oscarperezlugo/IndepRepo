@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:IndependienteStaFe.Controls"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.RegisterPage">
+    <ContentPage x:Name="page1" BackgroundColor="WhiteSmoke">
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid Style="{StaticResource GridStyle}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="userid" Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource EntryStyle}" Placeholder="Número de cédula" PlaceholderColor="DarkGray"/>
+                    <Entry x:Name="nombre" Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource EntryStyle}" Placeholder="Nombre" PlaceholderColor="DarkGray"/>
+                    <Entry x:Name="apellido" Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource EntryStyle}" Placeholder="Apellido" PlaceholderColor="DarkGray"/>
+                    <DatePicker x:Name="fechaNacimiento" Grid.Row="3" Grid.ColumnSpan="2" TextColor="DarkGray"></DatePicker>
+                    <Picker x:Name="lstViewGeneros" Title="Género" Grid.Row="4"  Grid.ColumnSpan="2" TextColor="DarkGray" >
+                        <Picker.Items>
+                            <x:String>Masculino</x:String>
+                            <x:String>Femenino</x:String>
+
+                        </Picker.Items>
+                    </Picker>
+                    
+
+                    <Button x:Name="siguiente" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource ButtonActStyle}" Text="Siguiente" Clicked="OnClickedNext1" BackgroundColor="DarkRed" TextColor="White" HorizontalOptions="Center"/>
+                </Grid>
+            </StackLayout>
+           
+        </StackLayout>
+    </ContentPage>
+    <ContentPage x:Name="page2" BackgroundColor="WhiteSmoke" >
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid Style="{StaticResource GridStyle}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Picker x:Name="ciudad" Grid.Row="0" Grid.ColumnSpan="2" Title="Ciudad" TextColor="DarkGray">
+                    </Picker>
+                    <Entry x:Name="address" Grid.Row="2" Grid.ColumnSpan="2" Placeholder="Dirección" Style="{StaticResource EntryStyle}" PlaceholderColor="DarkGray"/>
+
+                    <Entry x:Name="telefono" Grid.Row="3" Grid.ColumnSpan="2" Placeholder="Celular" Style="{StaticResource EntryStyle}" PlaceholderColor="DarkGray"/>
+
+                    <Entry x:Name="correo" Grid.Row="4" Grid.ColumnSpan="2" Style="{StaticResource EntryStyle}" Placeholder="Correo Electrónico" PlaceholderColor="DarkGray"/>
+                    <Entry x:Name="password" Grid.Row="5" Grid.ColumnSpan="2" Style="{StaticResource EntryStyle}" Placeholder="Contraseña" IsPassword="True" PlaceholderColor="DarkGray"/>
+                    <Entry x:Name="passwordconf" Grid.Row="6" Grid.ColumnSpan="2" Style="{StaticResource EntryStyle}" Placeholder="Confirmar contraseña" IsPassword="True" PlaceholderColor="DarkGray"/>
+                    <Button x:Name="regresar" Grid.Row="7" Grid.Column="0" Style="{StaticResource ButtonStyle}" Text="Regresar"  Clicked="OnClickedBack" BackgroundColor="DarkRed" TextColor="White"/>
+                    <Button x:Name="siguiente2" Grid.Row="7" Grid.Column="1" Style="{StaticResource ButtonActStyle}" Text="Siguiente" Clicked="OnClickedNext2" BackgroundColor="DarkRed" TextColor="White"/>
+                </Grid>
+            </StackLayout>
+          
+        </StackLayout>
+    </ContentPage>
+    <ContentPage x:Name="page3" BackgroundColor="WhiteSmoke">
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid BackgroundColor="Gray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="POLITICA DE DATOS" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White"/>
+                </Grid>
+                <ScrollView>
+                <Grid BackgroundColor="White">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="9*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="POLÍTICA DE PRIVACIDAD Y TRATAMIENTO DE DATOS PERSONALES OLIVIA DIRECT S.A.S.
+A continuación se presenta la Política de Privacidad y Tratamiento de Datos Personales (en adelante la Política de Privacidad) aplicable a las personas que suministren sus datos personales a la sociedad OLIVIA DIRECT S.A.S. (en adelante OLIVIA DIRECT), los cuales se incluirán en las bases de datos de OLIVIA DIRECT y serán sometidos a Tratamiento por parte de dicha empresa. OLIVIA DIRECT es una compañía que realiza entre otras actividades (i) el diseño, desarrollo y mantenimiento de estrategias de mercadeo directo, relacional e interactivo; (ii) la creación de estrategias de captación de clientes y generación de leads a través de cualquier medio; (iii) la implementación de programas de lealtad e incentivos al consumidor final y fuerzas de ventas; la ordenación y compra de medios. La coordinación de producción de materiales de mercadeo; (iv) el procesamiento y administración de bases de datos (v) el diseño, creatividad y producción de piezas de marketing (vi) la ejecución de campañas de respuesta directa a través de medio online y offline; y (vii) el análisis, medición y optimización de los resultados de campañas. La presente Política de Privacidad también rige la recolección y/o tratamiento de datos realizada por terceros Encargados del Tratamiento de datos de los Usuarios referenciados por OLIVIA DIRECT (como se define más adelante).
+
+1. Responsables y Encargados del Tratamiento
+
+El Responsable del Tratamiento de los datos de los Usuarios será OLIVIA DIRECT, quienes podrán almacenar los datos, generar bases de datos y recolectarlos, utilizarlos, transmitirlos, transferirlos, traspasarlos, cederlos, entregarlos, retenerlos, procesarlos, explotarlos, comercializarlos y/o suprimirlos de la forma como está establecida en la presente Política de Privacidad.Los Encargados del Tratamiento serán todos aquellos terceros a quienes OLIVIA DIRECT les transmita, transfiera, traspase, ceda entregue y/o comercialice los datos de los Usuarios quienes se sujetarán a la presente Política de Privacidad y quienes realizarán el Tratamiento de la forma en que OLIVIA DIRECT estrictamente les permita, contando siempre con el consentimiento de los Titulares Usuarios.
+2. Alcance de la Política de Privaciad
+
+La presente Política de Privacidad se aplicará a todas las Bases de Datos y/o archivos que contengan Datos Personales que sean objeto de Tratamiento por parte de OLIVIA DIRECT sus vinculadas, subordinadas y cesionarias en los eventos en los cuales se le considere como Responsable y/o Encargado del Tratamiento de Datos Personales de personas naturales, conforme a las disposiciones de la Ley Estatutaria 1581 de 2012, el Decreto 1377 de 2013 y demás normas que en adelante las modifiquen y/o adicionen.
+3. Definiciones
+
+Para efectos de la presente Política, los siguientes términos se entenderán en la forma en que se definen en el artículo 3º la Ley 1581 de 2012, según se transcribe a continuación:
+
+Autorización: Consentimiento previo, expreso e informado del titular para llevar a cabo el tratamiento de datos personales; ?Base de Datos: Conjunto organizado de datos personales que sea objeto de tratamiento;Dato Personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables (en adelante Datos Personales o Información Personal);Titular o Usuario: Persona natural cuyos datos personales sean objeto de tratamiento;Tratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión;Transmisión de Datos: Tratamiento de Datos Personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable;Transferencia de Datos: La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envía la Información Personal o Datos Personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país;Datos Sensibles: Se entiende como datos sensibles aquellos que afecten la intimidad del titular o cuyo uso indebido pueda afectar la intimidad del Titular o la potencialidad de generar su discriminación; yDatos Públicos: Aquellos datos que no sean semiprivados, privados o sensibles. Son considerados datos públicos, entre otros, los datos relativos al estado civil de la personas, a su profesión u oficio y a su calidad de comerciante o servidor público.
+4. Datos obtenidos de todos los Usuarios a través de Medios Digitales
+
+Cuando se accede a alguno los medios de recolección de datos (en adelante los Medios de Recolección), digitales tales como páginas webs, plataformas, aplicaciones móviles entre otras, sin necesidad de proveer datos personales, para efectos de ofrecer una experiencia más personalizada en el uso de los sistemas y de los servicios y/u ofertas, OLIVIA DIRECT obtiene y conserva la siguiente información acerca de los Usuarios de los Medios de Recolección (en adelante los Visitantes) la cual será utilizada conforme a la presente Política de Privacidad (en adelante Cookies) lo cual los Visitantes expresamente autorizan:
+
+La fecha y hora de acceso al Medio de Recolección;La dirección IP desde la que se accedió los Medio de Recolección;?El número de visitante que accede; yActividades que se realicen dentro de los Medios de Recolección a través del uso de Cookies tales como información de su URL, a qué URL accede seguidamente, qué navegador están usando, qué páginas visita, las búsquedas realizadas entre otros con el fin de conocer los intereses, el comportamiento y la demografía de los Visitantes.
+5. Datos obtenidos de Usuarios de los Medios de Recolección Voluntarios, Terceros Contratistas y Empleados
+
+OLIVIA DIRECT directamente o través de terceros aliados, podrá recolectar datos de Usuario a través de distintos Medios de Recolección digitales o físicos o podrá obtenerlos por parte de sus contratistas o empleados u otros terceros tales como clientes o adquirentes o participantes de promocionrs, actividades, eventos, entre otros, todo en virtud del cumplimiento del objeto social de OLIVIA DIRECT, o de cualquier actividad lícita relacionada con este y de actividades que éste o terceros aliados realicen con fines publicitarios y otros, dentro de la cual se podrá recolectar la siguiente información, la cual se entiende autorizada por los Titulares en las condiciones de la presente Política de Privacidad:
+
+Nombres y apellidos del Usuario/Titular;Documento de identidad;Edad;Fecha de nacimiento;Sexo;Región, país, ciudad de domicilio;Número de teléfono celular;Dirección de correo electrónico;Preferencias de consumo de servicios educativos, financieros y de cualquier tipo de servicio y/o producto;Información Crediticia y Financiera;Información Profesional;Información Tributaria;Información Laboral;Información Socio-Económica;Estrato y número de personas que habitan en su hogar,Preferencias de acuerdo a la información proporcionada/solicitada;Actividades que el Titular realice e información que este proporcione referente a sus intereses, el comportamiento y demografía del Titular y su familia;Información de referencias bancarias y/o comerciales; Información respecto de los estudios del Titular y las entidades en las cuales los ha cursado, así como en general, información académica;Cualquier otra otorgada voluntariamente por el Titular.
+6. Tratamiento de los Datos Personales por parte de OLIVIA DIRECT
+
+OLIVIA DIRECT, en el desarrollo de su objeto social y actividad económica, actúa como Responsable del Tratamiento de datos personales que se encuentren en sus bases de datos. En consecuencia recolecta, almacena, utiliza, transmite, transfiere, traspasa, cede, entrega, retiene, procesa, explota, comercializa y/o suprime datos personales de personas naturales con las cuales tiene o ha tenido algún tipo de relación, cualquiera sea su naturaleza (civil, comercial y/o laboral); entre las cuales se incluye, pero no se limita a, proveedores, contratistas, trabajadores, consumidores, acreedores, deudores, clientes y accionistas.
+
+7. Uso de la Política de Privacidad y Protección de la Información
+
+OLIVIA DIRECT informa a todos los titulares de los Datos Personales que le sean suministrados, ya sea electrónica o manualmente, que el Tratamiento de los mismos se sujetará a la presente Política de Privacidad. En consecuencia, si un Titular no se encuentra de acuerdo con la presente Política de Privacidad, no podrá suministrar información alguna que deba registrarse en una de las Bases de Datos de OLIVIA DIRECT;OLIVIA DIRECT se encuentra comprometido con la seguridad y buen uso de los datos personales que le son suministrados y, en consecuencia, se obliga a darles los usos adecuados así como a mantener la confidencialidad requerida frente a los mismos de acuerdo a lo establecido en esta Política de Privacidad y en la legislación existente frente a la materia;OLIVIA DIRECT se compromete al cumplimiento de la obligación de secreto de los datos de carácter personal y de su deber de tratarlos con confidencialidad, y asume, a estos efectos, las medidas de índole técnica, organizativa y de seguridad necesarias para evitar su alteración, pérdida, tratamiento o acceso no autorizado, de acuerdo con lo establecido en la ley y en los tratados internacionales suscritos por Colombia que rigen la materia;OLIVIA DIRECT ha emprendido y emprenderá todas las acciones necesarias para garantizar que tanto los proveedores de servicios como los procesadores que trabajan en nombre de la sociedad, así como las vinculadas, subordinadas, aliados comerciales y demás terceros autorizados conforme a la presente Política de Privacidad, protejan, en todos los eventos, la confidencialidad de la Información Personal a su cargo; yEl Usuario responderá, en cualquier caso, de la veracidad de los datos facilitados, reservándose OLIVIA DIRECT el derecho a excluir de los servicios registrados a todo Usuario que haya facilitado datos falsos. OLIVIA DIRECT podrá recolectar información que se encuentre en el dominio público para complementar las bases de datos. A dicha información se le dará el mismo tratamiento señalado en la presente Política de Privacidad.
+8. Usos Autorizados
+
+El tratamiento que realiza OLIVIA DIRECT de los datos personales de sus Usuarios, consiste en recolectar, almacenar, depurar, usar, analizar, circular, actualizar, cruzar con información propia y/o de terceros autorizados, explotar, retener, procesar transferir, transmitir, traspasar, ceder, entregar, suprimir y/o comercializar los datos de contacto, la información sobre preferencias de consumo en cualquier mercado y el comportamiento en los canales de contacto, con las siguientes finalidades:
+
+Facilitar la correcta ejecución de la recolección de Datos a través de los Medios de Recolección en;Realizar estudios estadísticos que permitan diseñar mejoras en los servicios prestados por parte de OLIVIA DIRECT o clientes, aliados y vinculados de ésta en caso de ser aplicable así como realizar estudios de mercadeo y consumo. Se podrá realizar el análisis de la Información Personal por parte de OLIVIA DIRECT, sus vinculadas y/o terceros subcontratados para tales efectos, con ocasión y para el desarrollo y ejecución de sus campañas;Gestionar tareas básicas de administración y gestión así como contactos para cumplir con el objeto social de OLIVIA DIRECT. Se podrá dar Tratamiento a la información adquirida en virtud de la relación existente entre los Titulares y OLIVIA DIRECT o sus clientes, vinculadas o aliadas, cualquiera que sea su naturaleza jurídica (laboral, civil, comercial, entre otras);Darle cumplimiento a las obligaciones contractuales y/o legales que OLIVIA DIRECT tenga con sus clientes, empleados, proveedores, autorizadas, cesionarias, licenciatarias, vinculadas, subordinadas y aliados comercialesasí como con las autoridades judiciales o administrativas.? Informar por cualquier medio, las promociones, productos y servicios actuales y futuros propios de OLIVIA DIRECT así como de sus clientes, aliados o vinculados; los eventos, actividades de promoción y otras actividades comerciales directa o indirectamente relacionadas con la actividad propia de OLIVIA DIRECT; y/o las promociones, productos y servicios promovidos directamente por los aliados comerciales estratégicos de OLIVIA DIRECT, que les generen valores agregados a los Usuarios o a terceros. ?Envío de material publicitario relacionado con los productos y servicios de OLIVIA DIRECT, sus autorizadas, clientes, cesionarias, licenciatarias, vinculadas y/o subordinadas y aliados comerciales estratégicos. ?Utilizar la información para la preparación, participación y desarrollo de concursos, juegos o actividades promocionales. Utilizar la información para la preparación y desarrollo de avisos publicitarios.?Analizar y medir la calidad de los productos y servicios ofrecidos por OLIVIA DIRECT, sus autorizadas, cesionarias, licenciatarias, vinculadas y/o subordinadas. ?Traspasar, transferir, transmitir, ceder, entregar y/o comercializar la información proporcionada a sus vinculadas y subordinadas, así como a sus aliados comerciales, terceros y a autoridades judiciales o administrativas, sean personas naturales o jurídicas, colombianas o extranjeras, con el fin de que éstas recolecten, almacenen, utilicen, transmitan, transfieran, traspasen, cedan, entreguen, retengan, procesen, depuren, analicen, circulen, actualicen, crucen con otra información, exploten, comercialicen y/o supriman la información para actividades estadísticas, de mercadeo, administrativas y legales que resulten necesarias en el normal desarrollo de su objeto social o cualquier actividad lícita relacionada con este.Transferir a terceros países la información proporcionada. El Usuario acepta que los datos personales aportados a través de cualquiera de los Medios de Recolección, sean tratados por OLIVIA DIRECT, en las formas y con las finalidades antes mencionadas.Contactar al Titular en el evento que se genere algún tipo de problema o inconveniente con la Información Personal;Contactar al Titular para que participe (bien sea como asistente o como contratistas o proveedor) en nuevos productos y/o campañas promovidos por OLIVIA DIRECT y/o sus clientes, aliados o vinculados;Enviar a los Titulares correos electrónicos como parte de una noticia, boletín o Newsletter. En cada mensaje de correo electrónico enviado existe la posibilidad de solicitar no estar inscrito en esta lista de correos electrónicos para dejar de recibirlos para lo cual deberá seguir las instrucciones indicadas ;Enviar al Titular información sobre productos y/o servicios basados en la información que se obtenga de sus hábitos de consumo; yPrevenir y detectar el fraude, así como otras actividades ilegales.
+Se entenderá que el Usuario al momento de registrarse y/o otorgar sus datos a través de los Medios de Recolección, presta su consentimiento expreso para transferir, transmitir, traspasar, ceder, entregar y/o comercializar los datos en la forma como está establecido en la presente Política de Privacidad y en especial con los usos detallados anteriormente.
+
+9. Transferencia a Terceros
+
+OLIVIA DIRECT podrá transferir, transmitir, traspasar, ceder, entregar y/o comercializar los Datos Personales de los Titulares como parte de los activos de OLIVIA DIRECT a terceros aliados comerciales, clientes o vinculados para efectos de que éstos terceros realicen el tratamiento de los mismos en los mismos términos y condiciones establecidos en la presente Política de Privacidad. De manera específica, pero sin limitarse a ello, OLIVIA DIRECT podrá utilizar proveedores de servicios y procesadores de datos que trabajen en nombre de la misma. Dichos servicios podrán incluir servicios de alojamiento de sistemas y de mantenimiento, encriptación, servicios de análisis, servicios de mensajería por email, servicios de call-centers, servicios de entrega, gestión de transacciones de pago, y controles de solvencia y de dirección, entre otros. En consecuencia, los Titulares deben entender que al suministrarle información a OLIVIA DIRECT, automáticamente le estarán concediendo a estos terceros autorización para acceder a su Información Personal.
+
+La Información Personal podrá ser transferida, transmitida, traspasada, cedida, entregada y/o comercializada a sus vinculadas, subordinadas, terceros y aliados comerciales y a autoridades judiciales o administrativas, sean personas naturales o jurídicas, colombianas o extranjeras, en aquellos eventos en los cuales la transferencia o transmisión de los datos sea necesaria para llevar a cabo los usos y actividades autorizadas por los Titulares conforme al objeto social de OLIVIA DIRECT, o cualquier actividad lícita relacionada con este. En todos los eventos, dicha información se conservará bajo estricta confidencialidad y será sometida a un Tratamiento riguroso, respetando los derechos y las garantías de sus Titulares.
+
+10. Efectos de la Autorización
+
+Para todos los efectos, se entiende que la autorización expresa e informada otorgada por parte de los Titulares a favor de OLIVIA DIRECT para el Tratamiento de sus Datos Personales, cualquiera que haya sido su Medio de Recolección (telefónico, escrito, digital, electrónico, oral o por medio de conductas inequívocas), implica el entendimiento y la aceptación plena de todo el contenido de la presente Política de Privacidad y por tanto expresamente reconoce que autoriza el uso de sus datos para los fines aquí indicados y de la manera aquí indicada incluido transmitir, explotar y comercializar dicha información..
+
+Si un Titular le suministra Información Personal a OLIVIA DIRECT a través de las comunicaciones telefónicas, su sitio web o por medio de cualquier canal adicional, físico o electrónico, bajo el entendido que dicho suministro de Información Personal es realizado de forma totalmente voluntaria, el Titular le concede a OLIVIA DIRECT su autorización para que utilice dicha Información Personal conforme a las estipulaciones de la presente Política de Privacidad.
+
+En el evento de una venta, fusión, consolidación, cambio en el control societario, transferencia de activos, reestructuración, insolvencia, liquidación obligatoria o cualquier tipo de proceso concursal de OLIVIA DIRECT, esta última podrá transferir la Información Personal a las partes involucradas, para lo cual se entiende autorizada en virtud de la presente Política de Privacidad.
+
+11. Derechos de los usuarios y procedimiento para ejercerlos
+
+11.1. Derechos
+
+El Usuario, en su calidad de titular de los Datos Personales, tendrá los siguientes derechos:
+
+Conocer, actualizar y rectificar sus datos personales frente a OLIVIA DIRECT o las demás compañías Encargadas del Tratamiento de sus datos personales, que se señalan en esta Política. Este derecho se podrá ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado;Solicitar prueba de la autorización otorgada a OLIVIA DIRECT, salvo cuando expresamente se exceptúe en la ley como requisito para el Tratamiento (artículo 10 Ley 1581 de 2012). ?Ser informado por OLIVIA DIRECT o alguna de las compañías Encargadas del Tratamiento de los datos personales, previa solicitud, acerca de la existencia de datos que le conciernan y el uso que se le ha dado a sus datos personales; ?Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la Ley 1581 de 2012 y las demás normas que la modifiquen, adicionen o complementen; ?Revocar la Autorización y/o solicitar la supresión del dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio haya determinado que en el Tratamiento el responsable o encargado han incurrido en conductas contrarias a la ley y a la Constitución; ?Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento.
+11.2. Procedimiento
+
+Los derechos a conocer, actualizar, rectificar y suprimir información y revocar la autorización, o solicitar prueba de la misma, podrán ser ejercidos mediante petición escrita dirigida a OLIVIA DIRECT para la atención de estas solicitudes enviando un correo electrónico a mateo.restrepo@oliviadirect.com
+
+En caso de reclamos, se seguirá el procedimiento establecido en el artículo 15 de la Ley 1581 de 2012.
+
+Como requisito previo para darle trámite a cualquier reclamo o solicitud, se verificará la identidad del reclamante, quien deberá ser el titular de la información, su representante o uno de sus causahabientes.
+
+Una solicitud o un reclamo debe contener, por lo menos:
+
+Identificación del Titular y del reclamante (en caso de que no sea el mismo Titular).Descripción de los hechos que dan lugar al reclamo o solicitud.Dirección física o electrónica de notificación; yPetición u objeto del reclamo.
+?Las solicitudes o reclamos serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de recibo de las mismas, siempre y cuando cumplan los requisitos mínimos mencionados arriba. Si no fuere posible dar una respuesta dentro de dicho término, se informará al respectivo titular de la información, explicando las razones de la demora y señalando la fecha en que se responderá su consulta, sin que en ningún caso se superen los cinco (5) días hábiles siguientes al vencimiento del primer término.
+
+Si se presenta una solicitud o una reclamación en forma incompleta, dentro de los cinco (5) días hábiles siguientes a la recepción de la solicitud o reclamo se comunicará al interesado que debe completar los requisitos arriba mencionados. Si transcurrieren dos (2) meses sin que el reclamante subsane su reclamación o solicitud, se entenderá que ha desistido de la misma.
+
+De existir algún reclamo sin solucionar, se acompañarán los datos personales registrados por el Titular con la leyenda: Reclamo en Trámite.
+
+11.2.1. Solicitud de Supresión de Datos
+
+Cuando se solicite la supresión de datos, esta no podrá realizarse en los siguientes casos:
+
+1) Cuando sea una obligación legal conservarlos;
+
+2) Cuando el Usuario se haya obligado contractualmente a permitir su uso;
+
+3) Cuando conservar los datos sea necesario para salvaguardar los intereses del Usuario o el Interés Público;
+
+4) Cuando la supresión dificulte o entorpezca el ejercicio de las funciones de las autoridades administrativas o judiciales.
+
+11.2.2. Revocatoria de Autorización
+
+Cuando un Usuario quiera revocar la autorización que haya dado para la utilización de sus datos personales, deberá informar al Responsable del Tratamiento de manera clara y motivada, si la revocatoria es total o parcial. La revocatoria de la autorización es parcial cuando el titular de la información manifiesta que desea revocar su autorización para el Tratamiento de sus datos personales para ciertas finalidades específicas, tales como las de envío de información publicitaria, de estudios de consumo, entre otras. La revocatoria de la autorización será total cuando el titular de la información solicite que cese completamente el Tratamiento de datos personales para todas las finalidades autorizadas.
+
+12. Procedimiento de Consulta, Rectificación y Reclamos
+
+Consulta: Las consultas y solicitudes de los Titulares serán atendidas en un término máximo de diez (10) días hábiles, contados a partir de la fecha de recibo de las mismas. En caso de que no sea posible resolver la consulta dentro de este término, el Titular será informado de dicha situación en la dirección de notificación que haya incluido en la respectiva consulta, y el término de respuesta se podrá extender hasta por cinco (5) días hábiles adicionales. La respuesta a las consultas o reclamos que los Titulares presenten podrán ser entregadas por cualquier medio físico o electrónico.
+
+Rectificaciones y Reclamos: Cuando el Titular de la Información o sus causahabientes consideren que su información de ser corregida, actualizada o suprimida, o cuando adviertan un presunto incumplimiento por parte de OLIVIA DIRECT de sus deberes en materia de Protección de Datos Personales contenidos en la legislación aplicable y en la presente Política de Privacidad, podrán presentar un reclamo de la siguiente manera:
+
+Se deberá presentar solicitud escrita frente al requerimiento específico;Si el reclamo resulta incompleto, OLIVIA DIRECT requerirá al interesado dentro de los cinco (5) días siguientes a la recepción de la solicitud para que complete y subsanase su petición:
+a. Si transcurren dos (2) meses desde la fecha del requerimiento sin que el solicitante haya dado respuesta, se entenderá desistida la pretensión. b. Si quien recibe el reclamo no es competente para resolverlo, dará traslado a quien si lo sea para que resuelva, una vez recibido, en un término máximo de dos (2) días hábiles e informará de tal hecho al solicitante.
+
+c. Si el reclamo es recibido de manera completa o se ha completado posteriormente, deberá incluirse, dentro de los dos (2) días hábiles siguientes, una leyenda en la base de datos que indique RECLAMO EN TRÁMITE.
+
+d. OLIVIA DIRECT resolverá el reclamo en un término máximo de quince (15) días hábiles contados a partir del día siguientes de recibo del mismo. En caso de que no sea posible resolver la consulta dentro de este término, el Titular será informado de la demora, los motivos y la fecha de respuesta en la dirección de notificación que haya incluido en el respectivo reclamo. En todo caso, el término de respuesta no podrá superar de ocho (8) días hábiles siguientes al vencimiento del primer término. La respuesta a los reclamos que los Titulares presenten podrán ser efectuadas por cualquier medio físico o electrónico.
+
+13. Confidencialidad de la Información Personal
+
+La Información Personal suministrada por los Titulares será utilizada por OLIVIA DIRECT, sus vinculadas y los terceros autorizados para tales fines, conforme a lo establecido tanto en la autorización como en la Política de Privacidad. OLIVIA DIRECT procurará proteger la privacidad de la Información Personal y conservarla bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento, así como el respeto de los derechos de los Titulares de la misma.
+
+Si por cualquier circunstancia una autoridad competente solicita sea revelada la Información Personal, OLIVIA DIRECT avisará a su Titular de tal situación.
+
+La presente obligación de confidencialidad de la Información Personal tendrá un tiempo de duración ilimitado, es decir, que la obligación subsiste en el tiempo. No obstante lo anterior, la confidencialidad de la información no aplicará para los casos de cesión o transferencia de los Datos personales cuando se realice conforme a la presente Política de Privacidad.
+
+14. Tratamiento de Información Personal de Menores de Edad:
+
+En aplicación de lo establecido por el Artículo 7º de la Ley 1581 de 2012 y el artículo 12 del Decreto 1377 de 2013, OLIVIA DIRECT no realizará el Tratamiento de Información Personal, de niños, niñas y adolescentes, respetando el interés superior de los mismos. 
+15. Requerimientos de las autoridades
+
+OLIVIA DIRECT cooperará con las autoridades competentes para garantizar el cumplimiento de las leyes, en materia de protección de la propiedad industrial, derechos de autor, prevención del fraude y otras materias.
+
+Los Usuarios de los Medios de Recolección autorizan expresamente a OLIVIA DIRECT a suministrar cualquier información personal sobre ellos, con la finalidad de dar cumplimiento a cualquier requerimiento de autoridad competente, y con el fin de cooperar con las autoridades competentes en la medida en que discrecionalmente dicha compañía lo entienda necesario y adecuado en relación con cualquier investigación de un ilícito, infracción de las normas del Estatuto del Consumidor, infracción de derechos de propiedad intelectual o industrial, u otra actividad que sea ilegal o que pueda exponer a OLIVIA DIRECT a cualquier responsabilidad legal. Además, los Usuarios autorizan a OLIVIA DIRECT a comunicar sus nombres y apellidos o razón social, domicilio, ciudad, región, código postal, país, número de teléfono celular, dirección de correo electrónico, a las autoridades competentes, en relación con las investigaciones que estas adelanten.
+
+16. Capacidad para aceptar los términos y condiciones
+
+Sólo será admisible la recolección de Datos Personales de personas mayores de 18 años, que de acuerdo con la ley, se consideren capaces. De no ser mayor de edad o ser legalmente incapaz, el Usuario deberá abstenerse de otorgar información personal.
+
+20. Cambios de política
+
+OLIVIA DIRECT se reserva la facultad de revisar en cualquier momento esta Política. OLIVIA DIRECT publicará en su página web cualquier cambio en esta Política. Cuando se realicen modificaciones sustanciales a esta Política, se comunicará este hecho a los titulares de la información mediante el envío de un aviso al correo electrónico que hayan registrado, antes de o a más tardar al momento de implementarlos, informándoles que podrán consultar la nueva Política en el la página web de OLIVIA DIRECT. En dicho aviso se indicará la fecha a partir de la cual regirá la nueva Política. Cuando el cambio se refiera a las finalidades del Tratamiento, se solicitará de los titulares de los datos personales una nueva autorización para aplicar las mismas.
+
+21. Fecha de entrada en vigencia de la presente política de tratamiento de la información y periodo de vigencia de la base de datos
+
+La presente Política estará vigente a partir del su publicación. Las bases de datos asociadas a esta Política, podrán ser tratadas por el término máximo que autoricen las leyes aplicables o, en caso de silencio de la ley al respecto, estará vigente a término indefinido.
+
+22. Datos de contacto del responsable de la información OLIVIA DIRECT
+
+Dirección y domicilio Dirección: CARRERA 9 # 80 15 OF 1103 BOGOTÁ
+Correo electrónico: mateo.restrepo@oliviadirect.com" FontSize="Micro" TextColor="Gray"/>
+
+                </Grid>
+                </ScrollView>
+                <Grid BackgroundColor="WhiteSmoke" Margin="0,0,0,3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <controls:CheckBox Grid.Row="0" x:Name="poldatos"    Text="¿Acepta las Politicas de Datos ?" IsChecked="{Binding YourProperty}" Type="Check" TextColor="DarkGray" Color="DarkGray"/>
+
+                    <Button x:Name="regresar1" Grid.Row="1"   Text="Regresar"  Clicked="OnClickedBack1" BackgroundColor="DarkRed" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Fill" CornerRadius="30"/>
+                    <Button x:Name="siguiente3" Grid.Row="2"   Text="Siguiente" Clicked="OnClickedNext3" BackgroundColor="DarkRed" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Fill" CornerRadius="30"/>
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage x:Name="page4" BackgroundColor="WhiteSmoke">
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid BackgroundColor="Gray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="TERMINOS Y CONDICIONES" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White"/>
+                </Grid>
+                <ScrollView>
+                <Grid BackgroundColor="White">
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="9*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="REGLAMENTO DEL PROGRAMA DE FIDELIDAD SOY LEÓN
+1. DESCRIPCIÓN GENERAL DEL PROGRAMA
+
+SOY LEÓN es el ecosistema de lealtad que nace de una alianza entre Independiente Santa Fe y Olive Tree Marketing, el cual busca reconocer a los hinchas de Santa Fe a través de la entrega de beneficios, comercialización de productos y experiencias, desarrollo de alianzas con terceros y acumulación y redención de Garras (Puntos)a través de una plataforma web y un app móvil que se encuentra en www.soylealindependientesantafe.com
+
+SOY LEÓN es un ecosistema de lealtad el cual vinculará a aliados de diferentes las industrias para entregar beneficios a los hinchas que pertenezcan a éste, quienes podrán acceder a beneficios y/o redimir experiencias en los diferentes establecimientos aliados. Los beneficios y el presente reglamento se encuentran publicados en la página web de SOY LEÓN www.soyleonsantafe.com. Dicho Reglamento contiene los términos y condiciones generales que rigen el Programa, delimitando y aclarando las condiciones bajo las cuales los Hinchas podrán registrarse, participar y retirarse del mismo.
+
+Con el registro del Hincha en el Programa, este declara que conoce y acepta todas las condiciones y limitaciones establecidas en el presente Reglamento.
+
+ 
+
+2. ALIADOS
+
+El Programa cuenta con una red de aliados, quienes pondrán a disposición de los Hinchas beneficios diseñados para ellos entre los cuales se encuentran descuentos, acceso a actividades, acceso a juegos para acceder o no a premios.
+
+En el ecosistema se encontrarán aliados habilitados para que el Hincha y redima beneficios o participe en experiencias.
+
+SOY LEÓN podrá vincular y desvincular aliados sin necesidad de previa notificación a sus Hinchas.
+
+Los productos, servicios y beneficios que ofrezca cada aliado, están sujetos a disponibilidad de inventario y a las condiciones y restricciones establecidas por cada uno de estos.
+
+El listado de los aliados vinculados al Programa se encuentra disponible para consulta en www.soyleonsantafe.com junto con las políticas y condiciones particulares de acceso a beneficios por cada uno de ellos.
+
+ 
+
+3. REGISTRO AL PROGRAMA
+
+El registro de los Hinchas en el Programa y el acceso a los beneficios que otorga el mismo, están sujetos a los términos y condiciones establecidos por SOY LEÓN, quien se reserva el derecho de afiliación, acceso, uso y exclusión de cualquier hincha del Programa.
+
+Las cédulas de ciudadanía colombianas y de extranjería que se encuentren en los siguientes estados, no podrán realizar el registro en el programa:
+
+• Cancelada por: muerte, doble intento de cedulación, internet, minoría de edad, extranjería o mala elaboración.
+
+• Doble cedulación
+
+• Falsa identidad
+
+• Interdicción judicial
+
+• Documento no expedido
+
+• Muerte del titular
+
+• Suspensión por derechos políticos
+
+El Programa cuenta con diferentes niveles pagos y un nivel gratuito a los que se podrán acceder a través www.soyleonsantafe.com, por cualquier persona natural mayor de edad con cédula de ciudadanía colombiana o de extranjería emitida en Colombia.
+
+Para registrarse en el Programa, el Hincha deberá suministrar los datos que le sean solicitados para el efecto y autorizar el tratamiento de sus datos personales.
+
+SOY LEÓN podrá facultar a algunos de sus aliados para realizar el registro en los canales de este.
+
+ 
+
+4. PORTAFOLIO DE BENEFICIOS
+
+Para los usuarios pagos el portafolio de beneficios del Programa está compuesto por:
+
+1. Envío a domicilio de un paquete de bienvenida que contiene: Una carta de bienvenida, Un carné de membresía, una pieza explicativa de los beneficios a los que puede acceder el hincha, una explicación de cómo funciona el programa, una explicación de como funciona el App de acceso al programa, una explicación de como funciona la página web de accesos a el programa.
+
+2. Ascensos de tribuna con inventario limitado.
+
+3. 2 x 1 en entradas con inventario limitado.
+
+4. 3 x 1 en entrada con inventario limitado.
+
+5. Acceso a alianzas con comercios y restaurantes.
+
+6. E -mail en momentos especiales.
+
+7. Extracto mensual de beneficios
+
+8. Acceso a Noticias de Santa Fe a
+
+9. Acceso a blog del programa
+
+10. Acceso con descuento a la tienda On Line.
+
+11. Carga de garras (Garras (Garras (Puntos))) mensuales para participar en actividades y juegos
+
+12. Acceso a experiencias y beneficios a cambio de garras (Garras (Garras (Puntos)))
+
+Para los usuarios gratuitos el portafolio de beneficios del Programa está compuesto por:
+
+1. Acceso a Noticias de Santa Fe.
+
+Adicionalmente, el Programa podrá contar con campañas específicas de acceso a beneficios, acumulación y redención de Garras (Puntos), las cuales se comunicarán oportunamente a los Hinchas a través de los canales de SOY LEÓN y/o sus aliados, para su participación en los mismos.
+
+Las campañas promocionales tendrán una vigencia definida, la cual será informada e incluida en cada una de ellas.
+
+Soy León podrá hacer los cambios que considere a los planes de beneficios sin aviso alguno y serán informados a los Hinchas a través de los canales definidos por SOY LEÓN, con el fin de que los mismos conozcan las nuevas condiciones del programa SOY LEON.
+
+ 
+
+5. CANALES DE ATENCIÓN
+
+SOY LEÓN pone a disposición para la atención de sus Hinchas, diferentes canales a los cuales podrán acceder para registrarse en el Programa, acceder a beneficios y Garras en la página web www.soyleonsantafe.com.
+
+SOY LEÓN podrá en cualquier momento adicionar, eliminar o limitar el uso de los canales, informando a los Hinchas sobre las nuevas condiciones y los trámites que pueden ser realizados en estos.
+
+ 
+
+6. INFORMACIÓN ENTREGADA POR LOS HINCHAS DEL PROGRAMA
+
+Los Hinchas son responsables por la información entregada a SOY LEÓN para registrarse en el Programa, así como de la actualización de esta en la medida en que sus datos se requieren para las validaciones y trámites del Programa. Cualquier error, omisión, falta de actualización o falsedad en la información entregada, será responsabilidad exclusiva del Hincha.
+
+Cuando un Hincha reclame algún tipo de premio o beneficio otorgado por el Programa, autoriza a SOY LEÓN para publicar su nombre y el beneficio recibido en cualquier medio publicitario, sin lugar a ningún tipo de compensación y sin que sea necesario requerir de alguna autorización adicional.
+
+Los datos personales de los Hinchas del Programa serán tratados por SOY LEÓN de acuerdo con la autorización que estos han otorgado y la Política de Privacidad, la cual se encuentra publicada en www.soyleonsantafe.com
+
+ 
+
+7. ACUMULACIÓN DE GARRAS (GARRAS (GARRAS (PUNTOS))) EN EL PROGRAMA
+
+Los miembros de SOY león podrán acumular Garras o Garras (Puntos)en diferentes actividades con aliados.
+
+Los aliados de acumulación y los medios de pago electrónico vinculados al Programa, otorgarán a sus Hinchas una cantidad de Garras (Puntos) por las operaciones realizadas, de acuerdo con las condiciones establecidas por cada uno.
+
+Las Garras Garras (Puntos) serán entregados a cada Hincha en su cuenta individual de SOY LEÓN para lo cual deberá, al momento de la realización de la operación, informar su tipo y número de documento de identidad, o de manera automática al pagar con un medio de pago electrónico activo en el Programa.
+
+SOY LEÓN es el responsable del proceso de acumulación de los Garras (Puntos) de cada uno de los Hinchas en el Programa.
+
+Con cada uno de los aliados de acumulación, SOY LEÓN ha definido las reglas de acumulación, estas son, las operaciones que otorgan Garras (Puntos), la equivalencia entre el valor de la operación y los Garras (Puntos) que se obtienen, restricciones y demás condiciones. Estas reglas se encuentran publicadas en www.soyleonsantafe.com
+
+Los Garras (Puntos) serán otorgados al titular de la cuenta individual, vinculada al tipo y número de documento entregado al momento de la realización de la operación. Las Garras (Puntos) no son transferibles a otras personas ni intercambiables por dinero. La cuenta es personal, así como la administración que se haga de la misma.
+
+SOY LEÓN responderá al Hincha por la acumulación errada de Garras (Puntos), salvo que se demuestre que el error ha sido inducido por el Hincha, evento en el cual SOY LEÓN podrá determinar si excluye al Hincha del Programa. Cuando un error y/o inconsistencia genere una acumulación mayor de Garras (Puntos) de los que el Hincha debió haber obtenido por la operación realizada, SOY LEÓN podrá descontarlos de la cuenta individual del Hincha, sin perjuicio de la exclusión del Programa, de acuerdo con lo mencionado anteriormente. Cuando el error genere una acumulación menor de Garras (Puntos) respecto de los que el Hincha debió haber obtenido, SOY LEÓN reconocerá los Garras (Puntos) faltantes acreditándolos en la cuenta individual del Hincha.
+
+Los Hinchas podrán tener saldos de Garras (Puntos) negativos en su cuenta individual por las siguientes razones: a. Cuando la transacción de acumulación sea reversada y el Hincha no posee un saldo de Garras (Puntos) igual o superior al valor de la reversión; b. Cuando por efectos de fraude u otra circunstancia se realice un ajuste débito de Garras (Puntos) y el Hincha no posee un saldo suficiente para cubrirlo; c. Cuando se genere un error en el sistema, evento que una vez conocido por SOY LEÓN, deberá ser solucionado entregando al Hincha los Garras (Puntos) que le corresponden.
+
+El número de Garras (Puntos)acumulados en una operación será calculado de forma automática y se reflejará en el saldo de Garras (Puntos) acumulados, hasta 3 días hábiles después de realizada la operación. En caso de que la operación haya sido realizada un día no hábil, el proceso de acumulación para las operaciones que no son en línea se podrá reflejar hasta el tercer día hábil siguiente al día de la realización de la transacción. El saldo de Garras (Puntos) y estado de la cuenta podrá consultarse a través de los diferentes canales dispuestos por SOY LEÓN para este propósito.
+
+Sólo acumularán Garras (Puntos) aquellas cuentas que se encuentren activas en el Programa. Las cuentas cerradas no acumularán Garras (Puntos).
+
+Una cuenta cerrada será aquella cuyo estado ha sido modificado de activo a cerrado, ya sea que, por voluntad del Hincha, por que venció el periodo pago, o por que este decida retirarse del Programa o porque SOY LEÓN cambie su estado por un evento donde se evidencie un uso indebido de la cuenta que atenta contra terceros, los aliados o SOY LEÓN , o por fallecimiento del titular de la cuenta. Una vez la cuenta pase de estado activo a cerrado, los Garras (Puntos) que se tengan acumulados se perderán; el Hincha no podrá cambiar el estado de su cuenta cerrada a activa, si desea reingresar al Programa deberá crear una nueva cuenta y comenzará con saldo cero (0).
+
+SOY LEÓN y sus Aliados podrán definir las transacciones, productos y servicios que harán parte del Programa.
+
+El Hincha podrá perder la totalidad de las Garras (Puntos) acumulados en los siguientes eventos: a. Cuando el Hincha solicita el retiro del Programa, b. Cuando se comprueben acciones que atenten contra un tercero, los Aliados o SOY LEÓN , c. Cuando el hincha titular de la cuenta hubiese fallecido.
+
+ 
+
+8. REDENCIÓN DE GARRAS (PUNTOS) EN EL PROGRAMA
+
+Las Garras (Puntos) acumulados podrán ser redimidos por los Hinchas en los comercios aliados vinculados al Programa en esta modalidad (redención) y en los canales dispuestos por SOY LEÓN .
+
+El Hincha titular de los Garras (Puntos) deberá ser quien los redima en los comercios aliados, catálogo virtual de www.soyleonsantafe.com, o a través de los canales dispuestos por SOY LEÓN . En cualquiera de estos canales, el hincha deberá autenticarse, presentando su documento de identidad (físico) e ingresando su contraseña para redimir sus Garras (Puntos).
+
+Las modalidades de redención de Garras (Puntos) que se pueden llegar a ofrecer para adquirir un beneficio o servicio de un comercio aliado o en los canales de SOY LEÓN son: a. Sólo Garras (Puntos): el Hincha podrá acceder al beneficio con solo Garras (Puntos), si cuenta con la cantidad disponible. Cada aliado podrá definir si esto aplica para su portafolio de productos; b. Plata más Garras (Puntos): el Hincha podrá definir el número de Garras (Puntos) que quiere redimir para adquirir el producto y lo demás lo deberá pagar con dinero; c. Plata y Garras (Puntos): la tasa de redención de cada Punto podrá ser modificada a favor del Hincha para adquirir ciertos productos o servicios, es decir, los aliados podrán definir un número exacto de Garras (Puntos) más un valor exacto en dinero para adquirir un producto o servicio. Estos estarán marcados de forma especial, y para obtener el beneficio adicional, el Hincha deberá cumplir con las condiciones publicadas en la etiqueta del producto o servicio.
+
+Realizada la redención, los Garras (Puntos) utilizados serán descontados de forma automática del saldo de Garras (Puntos) del Hincha. La redención de Garras (Puntos) se podrá realizar siempre y cuando el Hincha cuente con el saldo suficiente de Garras (Puntos) y el aliado cuente con las unidades disponibles del producto o servicio.
+
+Una cuenta bloqueada será aquella cuyo estado ha sido modificado de activo a bloqueado, ya sea por voluntad del Hincha o porque SOY LEÓN cambia su estado por un evento donde se evidencie un uso indebido de la cuenta que atenta contra el mismo Hincha, terceros, los aliados o SOY LEÓN . Un Hincha con una cuenta bloqueada no podrá redimir sus Garras (Puntos) mientras la cuenta se encuentre en este estado. Para desbloquearla, el Hincha deberá comunicarse con SOY LEÓN, a través de los canales de Servicio al Hincha, el asesor revisará el caso específico y de acuerdo con este análisis, SOY LEÓN podrá modificar el estado de cuenta bloqueada a activa.
+
+ 
+
+9. VENCIMIENTO DE LOS GARRAS (GARRAS (PUNTOS))
+
+Los Garras (Puntos) acumulados dentro del Programa tendrán una vigencia mínima de seis (6) meses calendario. Los aliados vinculados en el Programa podrán establecer vencimientos diferenciales por tipo de hincha, producto o servicios adquiridos. Dichas vigencias serán publicadas en los canales que SOY LEÓN ha dispuesto para esto.
+
+Cuando se rediman las Garras (Puntos), se debitarán de la cuenta de Garras (Puntos) del Hincha, aquellos que tienen mayor antigüedad, permitiendo así que los Garras (Puntos) que queden disponibles en la cuenta del Hincha sean los más recientes.
+
+Es responsabilidad del Hincha consultar los Garras (Puntos) que están próximos a vencerse. En caso de perderlos por su no utilización dentro del término de vigencia de estos, no podrán ser reintegrados en la cuenta del Hincha por ningún motivo.
+
+ 
+
+10. CAMBIOS, DEVOLUCIONES, CANCELACIONES Y GARANTÍAS DE PRODUCTOS Y SERVICIOS ADQUIRIDOS CON GARRAS (GARRAS (PUNTOS)
+
+Para los cambios, devoluciones, cancelaciones y garantías de productos o servicios que fueron adquiridos con Garras (Puntos), se aplicará la política definida por el aliado donde se adquirió el producto o servicio, las cuales estarán publicadas en la página web del aliado.
+
+ 
+
+11. OTROS BENEFICIOS
+
+El Programa ofrece a sus Hinchas beneficios adicionales a la acumulación y redención de Garras (Puntos), los cuales son:
+
+• Sorteos: El registro del número de identificación del Hincha en actividades relacionadas con el Programa o en el momento de la compra de determinados productos, podrá inscribir de manera automática al Hincha para que participe en diferentes eventos promocionales de SOY LEÓN . Las condiciones de dichos sorteos podrán consultarse en los canales dispuestos para el efecto, así como en los comercios aliados vinculados a dichos eventos.
+
+• Garras Extra: los productos marcados con esta opción entregarán una mayor cantidad de Garras (Puntos) de acuerdo con lo informado en la etiqueta de este. El sistema asignará los Garras (Puntos) adicionales de manera automática o según sea la estrategia comunicada.
+
+• Invitaciones a eventos: algunos Hinchas del Programa podrán recibir invitaciones a eventos especiales.
+
+SOY LEÓN podrá comunicar de forma temporal y ocasional, campañas especiales con planes de beneficio de acumulación y/o redención de Garras (Puntos). Dichas campañas se regirán por los términos y condiciones que sean publicados con las mismas.
+
+Igualmente, SOY LEÓN podrá crear ofertas especiales de reconocimiento a un segmento de Hinchas, ofreciendo beneficios preferenciales. Dichas ofertas serán publicitadas oportunamente y se regirán por los términos y condiciones publicados con las mismas.
+
+ 
+
+12. ADMINISTRACIÓN DE LA CONTRASEÑA Y SEGURIDAD
+
+El Hincha tendrá una contraseña única, la cual, junto con su tipo y número de documento de identidad, lo identificarán en el Programa. Dicha contraseña será necesaria para ingresar a la plataforma dispuesta para que el Hincha administre su cuenta, y podrá ser solicitada en las operaciones de redención y/o acumulación, para efectos de seguridad de la misma.
+
+El Hincha es responsable por el manejo de la contraseña, la cual es personal e intransferible.
+
+SOY LEÓN permitirá al Hincha realizar las siguientes actividades respecto a su contraseña: a. Asignación; b. Cambio de contraseña. Estas actividades de administración de la contraseña se podrán realizar a través de los canales dispuestos por SOY LEÓN para el efecto.
+
+Cuando un hincha olvide su contraseña, deberá realizar un proceso de validación de identidad para la creación de una nueva.
+
+Si el hincha ingresa tres veces la contraseña errada al momento de intentar ingresar a su cuenta a través de www.soyleonsantafe.com, o al momento de redimir sus Garras (Puntos) en cualquiera de los productos y servicios del ecosistema, su contraseña será bloqueada y deberá comunicarse con los canales de Servicio al Hincha para asignar una nueva.
+
+Si una cuenta ha sido bloqueada, independientemente de si su contraseña está activa o no, no podrá redimir sus Garras (Garras (Puntos)).
+
+SOY LEÓN podrá establecer las medidas de seguridad, reglas o condiciones que considere necesarias tendientes a proteger y darle seguridad a los Hinchas y al Programa tanto para los eventos de Acumulación como de Redención de Garras (Puntos)). Estas medidas serán informadas a través de los canales que tiene dispuestos SOY LEÓN para la comunicación con sus hinchas. Podrán existir eventos en que, con base en criterios de seguridad, minimización de daños y oportunidad, se realice un monitoreo y/o bloqueo no contemplado en dichos canales; SOY LEÓN estará obligado a actualizar estas medidas en el término de la distancia en caso de establecerse como condición y/o medida permanente y notificarla a los Hinchas.
+
+ 
+
+13. RETIRO DEL PROGRAMA
+
+Si el Hincha no está de acuerdo con el presente reglamento, con los términos y condiciones aquí establecidos y/o considera un error su registro y, por tanto, desea no ser miembro del Programa, o estando ya desea retirarse, podrá presentar una solicitud de retiro a través de los canales dispuestos para este efecto. En ningún caso el programa Soy León regresara el valor de la membresía del hincha. Los Garras (Puntos) que tenga acumulados podrán ser redimidos en productos, servicios y experiencias de forma previa a la solicitud de retiro del Programa, de lo contrario, los Garras (Puntos)serán cancelados el día del retiro.
+
+SOY LEÓN podrá retirar del Programa a los Hinchas que realicen un uso indebido de la cuenta individual y/o por incumplimiento de lo establecido en el presente Reglamento. Igualmente, podrá de forma discrecional suspender la cuenta individual de un Hincha, cancelando la afiliación al Programa sin lugar al reconocimiento del puntaje acumulado en la cuenta individual.
+
+Se considera un uso indebido de la cuenta individual, aquellos eventos en los cuales los Garras (Puntos)acumulados son conseguidos de manera ilegal o fraudulenta. SOY LEÓN no se responsabiliza por el uso indebido o fraude que este hecho ocasione. No se permite la comercialización de Garras (Puntos) y/o beneficios del Programa por parte de los Hinchas, y en caso de ésta ser comprobada, se procederá a la exclusión inmediata del Hincha.
+
+ 
+
+14. CANCELACIÓN, MODIFICACIÓN O TERMINACIÓN DEL PROGRAMA
+
+SOY LEÓN podrá modificar, suspender o cancelar de manera parcial o total los beneficios, y los términos y/o condiciones del presente Reglamento, en cualquier momento. Para este efecto, SOY LEÓN deberá informar a sus Hinchas, por el medio que considere idóneo, dicha decisión.
+
+En caso de suspensión, terminación o cancelación definitiva, individual y/o colectiva del Programa, si el Hincha tiene en su cuenta Garras (Puntos) suficientes para disfrutar de los beneficios del Programa, contará con un tiempo límite establecido por SOY LEÓN para redimirlos a partir de la fecha en que informe al público en general sobre la suspensión, terminación o cancelación del Programa de Lealtad. SOY LEÓN recomienda a los Hinchas del Programa mantenerse informados de los términos, condiciones y beneficios del mismo, así como de sus respectivas actualizaciones, revisando periódicamente en la página web www.soyleonsantafe.com cualquier novedad que sea publicada.
+
+ 
+
+15. ATENCIÓN DE PETICIONES, QUEJAS Y RECLAMOS
+
+Para realizar cualquier petición, queja y/o reclamación en relación con los beneficios otorgados en el Programa, o solicitar ajustes en el saldo de Garras (Puntos)), o resolver cualquier inquietud que se tenga relacionada con el Programa, el Hincha deberá comunicarse a través de los diferentes canales de atención:
+
+Contáctenos: Página web www.soyleonsantafe.com
+
+Las personas naturales, escribiendo al correo electrónico: contactenos@soyleonsantafe.com
+
+En el momento en el que Hincha registre una PQR, SOY LEÓN podrá solicitar los soportes que sean necesarios para atender su PETICIÓN, QUEJA O RECLAMO. En el evento de no poseer esta documentación, SOY LEÓN dará por válida la información que existe en el sistema del Programa, pudiendo o no revisar y corregir la cantidad de Garras (Puntos) asignados o redimidos, con el fin de evitar errores en el otorgamiento de estos." FontSize="Micro" TextColor="Gray"/>
+                    
+                </Grid>
+                </ScrollView>
+                <Grid BackgroundColor="WhiteSmoke" Margin="0,0,0,3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <controls:CheckBox Grid.Row="0" x:Name="termconds" Text="¿Acepta Términos y Condiciones ?" IsChecked="{Binding YourProperty}" Type="Check" TextColor="DarkGray" Color="DarkGray" />
+                    <Button x:Name="finalizar" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Fill" FontAttributes="Bold" Text="Registrar" Clicked="OnClickedFinalizar" BackgroundColor="DarkRed" TextColor="White" CornerRadius="30"/>
+                    <Button Grid.Row="1" Text="Revisar" Clicked="OnClickedNext3" BackgroundColor="DarkRed" TextColor="White" VerticalOptions="Center" HorizontalOptions="Fill" FontAttributes="Bold" CornerRadius="30"/>
+                </Grid>
+                
+            </StackLayout>
+           
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

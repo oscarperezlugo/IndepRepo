@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.ProductoDetailPage">
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource ScrollViewStyle}">
+            <StackLayout Style="{StaticResource StackLayoutStyle}" VerticalOptions="CenterAndExpand">
+                <Grid Style="{StaticResource GridStyle}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Image x:Name="image" Source="{Binding Image}" Grid.Row="0" Grid.ColumnSpan="2" WidthRequest="200" VerticalOptions="StartAndExpand"  HeightRequest="200"   Aspect="AspectFill" Margin="5,5,5,5" />
+                    <Label  x:Name="name" Text="{Binding Name}" Grid.Row="1" Grid.ColumnSpan="2" VerticalOptions="Center" 
+                     HorizontalOptions="CenterAndExpand"  Margin="5,5,5,5" TextColor="#B00000" />
+                    <Label x:Name="value" Text="{Binding Value}" Grid.Row="2" Grid.Column="0"  TextColor="#B00000" />
+                    <Label x:Name="typepay" Text="{Binding TypePay}" Grid.Row="2" Grid.Column="1"  VerticalOptions="Start"  TextColor="#B00000" />
+                    <Entry x:Name="lstViewCantidad" Placeholder="Cantidad" Style="{StaticResource EntryStyle}"  Grid.Row="3"  Grid.ColumnSpan="2" >
+                       
+                    </Entry>
+                    <Button  Grid.Row="5" Text="Agregar al Carrito" Grid.Column="1" BackgroundColor="DarkRed"  Style="{StaticResource ButtonActStyle}" Clicked="EvetClicked"></Button>
+                    <Button  Grid.Row="5" Text="Ir a Compras" Grid.Column="0"  Style="{StaticResource ButtonActStyle}" BackgroundColor="DarkRed" Clicked="BackEvetClicked"></Button>
+
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

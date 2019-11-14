@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.InicioPage">
+
+  <ContentPage.Content HasNavigationBar="False">
+    <ScrollView Style="{StaticResource ScrollViewStyle}">
+      <StackLayout Style="{StaticResource StackLayoutStyle}">
+        <Grid RowSpacing="0" Padding="2,2,2,2" BackgroundColor="Black">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="65" />
+          </Grid.RowDefinitions>
+          <Button Text="HOME" TextColor="White" Grid.Row="0" Grid.Column="0" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="Transparent" Clicked="Home_Clicked" />
+          <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" HeightRequest="40"  />
+                    <Button Clicked="Button_Clicked" Text="&#xf007;" FontSize="Large" FontFamily="{StaticResource FontAwesomeSolid}" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="40" TextColor="White"/>
+
+                </Grid>
+        
+          <Grid  BackgroundColor="Black" Padding="0,0,0,0" >
+
+            <Grid.RowDefinitions>
+              <RowDefinition Height="45"/>
+              <RowDefinition Height="150"/>
+              <RowDefinition Height="60"/>
+              <RowDefinition Height="2"/>
+              <RowDefinition Height="20"/>
+              <RowDefinition Height="15"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="5*"/>
+              <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="vip" Grid.Row="0" Grid.Column="0" Text="☆SER VIP" Clicked="Membership_Clicked" HeightRequest="45" Style="{StaticResource BtnFlaIniciotStyle}" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Medium" FontFamily="Arial" FontAttributes="Bold" BackgroundColor="Gray" CornerRadius="25" Margin="5,0,5,0"/>
+                    <Button x:Name="registrate" Grid.Row="0" Grid.Column="1" Text="REGISTRO" Clicked="Register_Clicked" HeightRequest="45"  Style="{StaticResource BtnFlaIniciotStyle}" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Medium" FontFamily="Arial" FontAttributes="Bold" BackgroundColor="Gray" CornerRadius="25" Margin="5,0,5,0"/>
+                    <Image x:Name="imagen" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" WidthRequest="280" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="-20,0,-20,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="EvetClicked2"/>
+                        </Image.GestureRecognizers>
+                        </Image>
+                        <Label x:Name="noticiad" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource LabelDestacado}"  HeightRequest="60" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" FontSize="Medium" FontFamily="Arial" FontAttributes="Bold" TextColor="White"/>
+            <BoxView Color="White" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,0,15,0" HorizontalOptions="Center"/>
+            <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="Fotografia Prensa SANTA FE" FontFamily="Arial" FontAttributes="Bold" FontSize="Micro" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="HONOR FUERZA ORGULLO Y TRADICION" FontFamily="Arial" FontAttributes="Italic" FontSize="Caption" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+          </Grid>
+        
+        <Grid BackgroundColor="Black" Grid.Row="1" RowSpacing="0" Grid.Column="1">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+          </Grid.RowDefinitions>
+          <Label Grid.Column="0" Grid.Row="0" Text=" PROXIMO PARTIDO" FontAttributes="Italic" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
+        </Grid>
+        <Grid BackgroundColor="DarkGray" Grid.Row="1" RowSpacing="0" Grid.Column="6">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+          </Grid.ColumnDefinitions>
+          <Label
+          Grid.Column="1"
+          Grid.Row="0"
+          Text="{Binding Days, StringFormat='{0:D2}'}"
+          Style="{StaticResource LabelStyle}"
+              TextColor="White"
+              FontSize="Medium"
+              VerticalOptions="Center"
+              HorizontalOptions="Center"
+              FontAttributes="Italic"
+                    />
+          <Label
+          Grid.Column="2"
+          Grid.Row="0"
+          Text="{Binding Hours, StringFormat='{0:D2}'}"
+          Style="{StaticResource LabelStyle}"
+              TextColor="White"
+              FontSize="Medium"
+              VerticalOptions="Center"
+              HorizontalOptions="Center"
+              FontAttributes="Italic"
+                    />
+          <Label
+          Grid.Column="3"
+          Grid.Row="0"
+          Text="{Binding Minutes, StringFormat='{0:D2}'}"
+          Style="{StaticResource LabelStyle}"
+              TextColor="White"
+              FontSize="Medium"
+              VerticalOptions="Center"
+              HorizontalOptions="Center"
+              FontAttributes="Italic"
+                    />
+          <Label
+          Grid.Column="4"
+          Grid.Row="0"
+          Text="{Binding Seconds, StringFormat='{0:D2}'}"
+          Style="{StaticResource LabelStyle}"
+              TextColor="White"
+              FontSize="Medium"
+              VerticalOptions="Center"
+              HorizontalOptions="Center"
+              FontAttributes="Italic"
+                    />
+        </Grid>
+        <Grid BackgroundColor="White" Grid.Row="1" RowSpacing="0" Grid.Column="6">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+          </Grid.ColumnDefinitions>
+          <Label
+          Grid.Column="1"
+          Grid.Row="0"
+          Text="DÍAS"
+              FontAttributes="Italic"
+              FontSize="Small"
+              TextColor="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+          Style="{StaticResource LabelStyle}"
+                    />
+          <Label
+          Grid.Column="2"
+          Grid.Row="0"
+          Text="HORAS"
+              FontAttributes="Italic"
+              FontSize="Small"
+              TextColor="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+          Style="{StaticResource LabelStyle}"
+                    />
+          <Label
+          Grid.Column="3"
+          Grid.Row="0"
+          Text="MINUTOS"
+               FontAttributes="Italic"
+              FontSize="Small"
+              TextColor="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+          Style="{StaticResource LabelStyle}"
+                    />
+          <Label
+          Grid.Column="4"
+          Grid.Row="0"
+          Text="SEGUNDOS"
+               FontAttributes="Italic"
+              FontSize="Small"
+              TextColor="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+          Style="{StaticResource LabelStyle}"
+                    />
+        </Grid>
+        <Grid BackgroundColor="DarkRed" Grid.Row="1" RowSpacing="0">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="3"/>
+          </Grid.RowDefinitions>
+          <Label Text="en nombre de Dios y la Virgen de Coromoto" TextColor="Transparent" FontSize="Micro"/>
+        </Grid>
+                <Grid BackgroundColor="DarkRed" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Image x:Name="local" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Image x:Name="visitante" Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" VerticalOptions="Center" HorizontalOptions="Center"  />
+                    <Label x:Name="localn" Grid.Row="3" Grid.Column="0" FontSize="Micro" FontAttributes="Bold" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label x:Name="visita" Grid.Row="3" Grid.Column="2" FontSize="Micro" FontAttributes="Bold" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label x:Name="gamenamex" Grid.Row="3" Grid.Column="1" FontSize="Micro" FontAttributes="None" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label x:Name="sitio" Grid.Row="2" Grid.Column="1" FontSize="Micro" FontAttributes="Italic" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label Text="Vs." Grid.Row="1" Grid.Column="1" FontSize="Micro" FontAttributes="Bold" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label x:Name="dategame" Grid.Row="0" Grid.Column="1" FontSize="Micro" FontAttributes="Italic" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+                </Grid>        
+                    
+              
+        <ListView x:Name="Lista" ItemSelected="EvetClicked" SeparatorColor="DarkRed" HasUnevenRows="True" Margin="2,2,2,-285" >
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+
+                <Grid Style="{StaticResource GridStyle}">
+                  <Grid.RowDefinitions>
+
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                  </Grid.RowDefinitions>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                  </Grid.ColumnDefinitions>
+
+                  <Image Source="{Binding Image}" Grid.RowSpan="3" Grid.Row="0" Grid.Column="0" Aspect="AspectFill" Margin="2,2,2,2" VerticalOptions="Fill" HorizontalOptions="Fill"/>
+                  <Label Text="{Binding Name}"  Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="DarkRed" />
+                  <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"    FontSize="Small" TextColor="Black"/>
+                  <Label Text="{Binding Date}" Grid.Row="2" Grid.Column="1"  TextColor="Gray" FontSize="Micro" HorizontalOptions="Start"    />
+                </Grid>
+
+              </ViewCell>
+
+
+            </DataTemplate>
+
+          </ListView.ItemTemplate>
+        </ListView>
+                <Grid RowSpacing="0" Margin="0,0,0,-15">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Row="1" Padding="-4,0,-4,0" BackgroundColor="DarkRed" Text="LISTA NOTICIAS" FontAttributes="Bold" FontSize="Medium" TextColor="White" HorizontalOptions="FillAndExpand" CornerRadius="25" VerticalOptions="FillAndExpand" Clicked="Noticias_Clicked" />
+                </Grid>
+        <Grid BackgroundColor="DarkRed" Grid.Row="1" RowSpacing="0">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="3"/>
+          </Grid.RowDefinitions>
+          <Label Text="en nombre de Dios y la Virgen de Coromoto" TextColor="Transparent" FontSize="Micro"/>
+        </Grid>
+        <Grid BackgroundColor="DarkGray" Grid.Row="1" RowSpacing="0">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+          </Grid.RowDefinitions>
+          <Label Text="ULTIMOS VIDEOS" TextColor="White" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Italic"/>
+        </Grid>
+        <Grid BackgroundColor="DarkRed" Grid.Row="1" RowSpacing="0">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="3"/>
+          </Grid.RowDefinitions>
+          <Label Text="en nombre de Dios y la Virgen de Coromoto" TextColor="Transparent" FontSize="Micro"/>
+        </Grid>
+        <Grid Style="{StaticResource GridStyle}" BackgroundColor="White" RowSpacing="0" Margin="0,0,0,-50">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="20"/>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="7*"/>
+            
+          </Grid.ColumnDefinitions>
+          <Image x:Name="imagen0" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" HeightRequest="50" WidthRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Image.GestureRecognizers>
+              <TapGestureRecognizer Tapped="VideoClicked"/>
+            </Image.GestureRecognizers>
+          </Image>
+                    <Image x:Name="imagen1" Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" HeightRequest="50" WidthRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Image.GestureRecognizers>
+              <TapGestureRecognizer Tapped="VideoClicked1"/>
+            </Image.GestureRecognizers>
+          </Image>
+                    <Image x:Name="imagen2" Grid.Row="6" Grid.Column="0" Grid.RowSpan="2" HeightRequest="50" WidthRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Image.GestureRecognizers>
+              <TapGestureRecognizer Tapped="VideoClicked2"/>
+            </Image.GestureRecognizers>
+          </Image>
+                    <Image x:Name="imagen3" Grid.Row="9" Grid.Column="0" Grid.RowSpan="2" HeightRequest="50" WidthRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Image.GestureRecognizers>
+              <TapGestureRecognizer Tapped="VideoClicked3"/>
+            </Image.GestureRecognizers>
+          </Image>
+          <Label x:Name="Texto0" Grid.Row="0" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Small" TextColor="DarkRed" FontAttributes="Bold" />
+          <Label x:Name="Texto1" Grid.Row="3" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Small" TextColor="DarkRed" FontAttributes="Bold"/>
+          <Label x:Name="Texto2" Grid.Row="6" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Small" TextColor="DarkRed" FontAttributes="Bold"/>
+          <Label x:Name="Texto3" Grid.Row="9" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Small" TextColor="DarkRed" FontAttributes="Bold"/>
+                    <Label x:Name="fecha1" Grid.Row="1" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Micro" TextColor="Gray" FontAttributes="Italic" />
+                    <Label x:Name="fecha2" Grid.Row="4" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Micro" TextColor="Gray" FontAttributes="Italic"/>
+                    <Label x:Name="fecha3" Grid.Row="7" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Micro" TextColor="Gray" FontAttributes="Italic"/>
+                    <Label x:Name="fecha4" Grid.Row="10" Grid.Column="1"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="Micro" TextColor="Gray" FontAttributes="Italic"/>
+                    <BoxView Color="DarkRed" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" />
+                    <BoxView Color="DarkRed" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" />
+                    <BoxView Color="DarkRed" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" />
+                </Grid>
+        <Grid BackgroundColor="DarkRed" Grid.Row="1" RowSpacing="0" Margin="0,50,0,-65">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="3"/>
+          </Grid.RowDefinitions>
+          <Label Text="en nombre de Dios y la Virgen de Coromoto" TextColor="Transparent" FontSize="Micro"/>
+        </Grid>
+        <Grid Style="{StaticResource GridStyle}" Margin="0,0,0,5">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            
+          </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Grid.Row="1" Padding="-8,0,-8,0" Grid.Column="0"  FontSize="Medium" FontAttributes="Bold" BackgroundColor="DarkRed" Text="VER TODOS LOS VIDEOS" TextColor="White" HorizontalOptions="Fill" VerticalOptions="CenterAndExpand" Clicked="Videos_Clicked" CornerRadius="30"/>
+        </Grid>
+
+
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

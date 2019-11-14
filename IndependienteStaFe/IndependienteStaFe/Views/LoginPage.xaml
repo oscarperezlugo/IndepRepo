@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.LoginPage" BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource ScrollViewStyle}">
+            <StackLayout Style="{StaticResource StackLayoutStyle}" VerticalOptions="CenterAndExpand">
+                <Grid Style="{StaticResource GridStyle}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="256"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="logo" Grid.Row="0"  Source="logosf.png" WidthRequest="250" HeightRequest="250" 
+                   HorizontalOptions="CenterAndExpand" Margin="20,20,20,0" />
+                    <Entry x:Name="usuario" Grid.Row="1"   Placeholder="CEDULA" PlaceholderColor="LightGray"   
+                           Style="{StaticResource EntryStyle}" 
+                          />
+                    <Entry x:Name="password" Grid.Row="2"     Placeholder="PASSWORD" PlaceholderColor="LightGray"  
+                           Style="{StaticResource EntryStyle}" 
+                           IsPassword="True"  
+                           />
+                    <Button x:Name="rclave" Grid.Row="3" Style="{StaticResource BtnFlatStyle}" Text="Recuperar Clave" Command="{Binding GetUsuariosCommand}"  Clicked="ClickedRecuperarClave" TextColor="Gray"/>
+
+                    <Button  Grid.Row="4" Clicked="Button_Clicked" Text="Ingresar"  Style="{StaticResource ButtonStyle}" BackgroundColor="DarkRed" TextColor="White"></Button>
+                    <Button  Grid.Row="5" Clicked="ClickedRegistrarse" Text="Registrarse"  Style="{StaticResource ButtonStyle}" BackgroundColor="DarkRed" TextColor="White"></Button>
+                    <Label x:Name="messageLabel" Grid.Row="6" Style="{StaticResource LabelStyle}" Margin="3,3,3,3" VerticalOptions="CenterAndExpand"   />
+
+                </Grid>
+                    
+
+            </StackLayout>
+        </ScrollView>
+        </ContentPage.Content>
+</ContentPage>

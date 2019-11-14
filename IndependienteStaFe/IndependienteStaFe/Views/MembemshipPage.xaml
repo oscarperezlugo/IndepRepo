@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IndependienteStaFe.Views.MembemshipPage">
+    <ScrollView>
+        <StackLayout>
+            <Grid RowSpacing="0" Padding="2,2,2,2" BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="65" />
+                </Grid.RowDefinitions>
+                <Button Text="HOME" TextColor="White" Grid.Row="0" Grid.Column="0" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="Transparent" Clicked="Home_Clicked" />
+                <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" HeightRequest="40"  />
+                <Button Clicked="Button_Clicked" Text="&#xf007;" FontSize="Large" FontFamily="{StaticResource FontAwesomeSolid}" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="40" TextColor="White"/>
+            </Grid>
+            <Grid BackgroundColor="Black" RowSpacing="0" Padding="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Text="MEMBRESIAS" FontSize="Subtitle" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="Yellow" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Text="TRADICION" HorizontalOptions="Center" FontSize="Large" VerticalOptions="Center" TextColor="Gray" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+                <BoxView Color="Yellow" Grid.Column="0" Grid.Row="0"/>
+                <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Acceso a noticias, Acceso a nuestra plataforma, Recibe ofertas a través de sms ó email, Recuerda que en cualquier momento podrás convertirte en miembro pago y disfrutar de todos los beneficios y experiencias que Soy León ha diseñado" HorizontalOptions="Center" FontSize="Micro" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="5,10,5,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Button Text="COMPRA YA" HorizontalOptions="FillAndExpand" FontSize="Medium" VerticalOptions="Center" TextColor="Gray" BackgroundColor="Yellow" FontAttributes="Bold" Clicked="Register_Clicked" CornerRadius="15" />
+            </Grid>
+            <Grid BackgroundColor="LightBlue" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Text="ORGULLO" HorizontalOptions="Center" FontSize="Large" VerticalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+                <BoxView Color="LightBlue" Grid.Column="0" Grid.Row="0"/>
+                <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Kit de bienvenida, 2 Ascensos de tribuna, 25% Descuento en entradas al estadio, 2x1 (2 veces al semestre), 3x1 (2 veces al semestre), Acceso a Experiencias:Foto con la copa, Día de entrenamiento, Tour por el Campín, Alguiler del Monaguillo, Camiseta autografíada, Almuerzo con los jugadores, Firma de balones, Viaje con los jugadores, Noticas y contenido exclusivos, Beneficios con aliados Y mucho más..." HorizontalOptions="Center" FontSize="Micro" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="5,10,5,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Button Text="COMPRA YA" HorizontalOptions="FillAndExpand" FontSize="Medium" VerticalOptions="Center" TextColor="White" BackgroundColor="LightBlue" FontAttributes="Bold" Clicked="Register_Clicked" CornerRadius="15" />
+            </Grid>
+            <Grid BackgroundColor="DarkBlue" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Text="FUERZA" HorizontalOptions="Center" FontSize="Large" VerticalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+                <BoxView Color="DarkBlue" Grid.Column="0" Grid.Row="0"/>
+                <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Kit de bienvenida, 3 Ascensos de tribuna, 25% Descuento en entradas al estadio, 2x1 (3 veces al semestre), 3x1 (3 veces al semestre), Acceso a Experiencias:Foto con la copa, Día de entrenamiento, Tour por el Campín, Alguiler del Monaguillo, Camiseta autografíada, Almuerzo con los jugadores, Firma de balones, Viaje con los jugadores, Noticas y contenido exclusivos, Beneficios con aliados Y mucho más..." HorizontalOptions="Center" FontSize="Micro" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="5,10,5,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Button Text="COMPRA YA" HorizontalOptions="FillAndExpand" FontSize="Medium" VerticalOptions="Center" TextColor="White" BackgroundColor="DarkBlue" FontAttributes="Bold" Clicked="Register_Clicked" CornerRadius="15" />
+            </Grid>
+            <Grid BackgroundColor="Black" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Text="HONOR" HorizontalOptions="Center" FontSize="Large" VerticalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="0,-8,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+                <BoxView Color="Black" Grid.Column="0" Grid.Row="0"/>
+                <Image Source="logonavbar.png" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Kit de bienvenida, 4 Ascensos de tribuna, 25% Descuento en entradas al estadio, 2x1 (4 veces al semestre), 3x1 (4 veces al semestre), Acceso a Experiencias:Foto con la copa, Día de entrenamiento, Tour por el Campín, Alguiler del Monaguillo, Camiseta autografíada, Almuerzo con los jugadores, Firma de balones, Viaje con los jugadores, Noticas y contenido exclusivos, Beneficios con aliados Y mucho más..." HorizontalOptions="Center" FontSize="Micro" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+            </Grid>
+            <Grid BackgroundColor="White" RowSpacing="0" Padding="0,0,0,0" Margin="5,10,5,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Button Text="COMPRA YA" HorizontalOptions="FillAndExpand" FontSize="Medium" VerticalOptions="Center" TextColor="White" BackgroundColor="Black" FontAttributes="Bold" Clicked="Register_Clicked" CornerRadius="15" />
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
